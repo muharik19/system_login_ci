@@ -10,8 +10,6 @@
             <?= $this->session->flashdata('message'); ?>
 
             <h5>Role: <?= $role['role']; ?></h5>
-            <a href="" class="btn btn-primary mb-3" data-toggle="modal" data-target="#newRoleModal">Add New Role</a>
-
             <!-- DataTales Example -->
             <div class="card shadow mb-4">
                 <div class="card-header py-3">
